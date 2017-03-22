@@ -1,0 +1,24 @@
+  <!DOCTYPE html>
+  <html>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-resource.js"></script>
+
+      <body ng-app="myCrud" ng-controller="crudController">
+
+      <p><a href="#/">Get</a></p>
+
+      <a href="#post">Post</a>
+      <!--a href="#getById/{{crud._id}}">getById</a-->
+
+
+      <div ng-view></div>
+
+      <script src="/route.js"></script>
+      <script src="/controller.js"></script>
+      <script src="/service.js"></script>
+
+
+      </body>
+  </html>
